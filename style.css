@@ -1,0 +1,31 @@
+#menu_icon{
+    font-size: 36px;
+    color: #fff;
+    display: none;
+}
+/* BreakPoint */
+@media (max-width: 990px){
+    .header{
+        padding: 1.25rem 4%;
+    }
+}
+
+@media (max-width: 768px){
+    #menu_icon{
+        display: block;
+    }
+
+    .navbar{
+        position: fixed;
+        top: 100%;
+        left:0;
+        width:100%;
+        padding: 0.5rem 4%;
+        background: rgba(255,255,255,0.1);
+        border-bottom:2px solid rgba(255,255,255,0.2);
+    }
+    .navbar a{
+        display: block;
+        margin: 1.5rem 0;
+    }
+}
